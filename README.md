@@ -63,19 +63,19 @@ The second objective is to segment customers using **K-Means clustering**. The s
    - Fit **K-Means clustering models** on the standardized data for **2 to 15 clusters**.
      ![Create an Inertia Plot](screenshots/K-Means.png) 
    - Plot the inertia values to identify the optimal number of clusters using the **elbow method**.
-     ![ProductsPerYear](screenshots/Plot_the_inertia.png)
+     ![Plot the inertia values](screenshots/Plot_the_inertia.png)
 
 3. **Fit the Optimal K-Means Model**  
    - Determine the elbow point from the inertia plot and use that value of **k** to fit the K-Means model.
-     ![ProductsPerYear](screenshots/new_feature.png) 
+     ![Optimal K-Means Model](screenshots/Optimal_K-Means.png) 
 
 4. **Analyze the Clusters**  
    - Check the **number of customers** in each cluster to understand the cluster distribution.
-     ![ProductsPerYear](screenshots/new_feature.png)  
+     ![number of customers](screenshots/number_of_customers.png)  
 
 5. **Interpret the Clusters**  
    - Create a **heat map** of cluster centers to visualize feature values for each cluster.
-     ![ProductsPerYear](screenshots/new_feature.png) 
+     ![heat map](screenshots/new_feature.png) 
    - Analyze and interpret the characteristics of the clusters.
-     ![ProductsPerYear](screenshots/new_feature.png)
+     ![Analyze and interpre](screenshots/Analyze_and_interpre.png)
 
