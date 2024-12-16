@@ -75,7 +75,7 @@ The second objective is to segment customers using **K-Means clustering**. The s
 
 5. **Interpret the Clusters**  
    - Create a **heat map** of cluster centers to visualize feature values for each cluster.
-     ![heat map](screenshots/new_feature.png) 
+     ![heat map](screenshots/heat_map.png) 
    - Analyze and interpret the characteristics of the clusters.
      ![Analyze and interpre](screenshots/Analyze_and_interpre.png)
 
