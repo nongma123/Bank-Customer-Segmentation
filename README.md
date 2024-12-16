@@ -78,4 +78,35 @@ The second objective is to segment customers using **K-Means clustering**. The s
      ![heat map](screenshots/heat_map.png) 
    - Analyze and interpret the characteristics of the clusters.
      ![Analyze and interpre](screenshots/Analyze_and_interpre.png)
+     
+## 🚀 **Objective 3: Cluster the Customers (Round 2)**  
+The third objective is to perform **K-Means clustering** using a different subset of fields and compare the results to the initial clustering.
+
+1. **Analyze Summary Statistics**  
+   - Review the **summary statistics** by country.
+     ![summary statistics](screenshots/summary_statistics.png)  
+   - Exclude the **country fields** from the dataset.
+     ![Exclude the country fields](screenshots/Exclude_country.png)   
+
+2. **Create an Inertia Plot**  
+   - Fit **K-Means clustering models** on the standardized data (without country fields) for **2 to 15 clusters**.
+     ![K-Means](screenshots/K-Means_2.png)  
+   - Plot the inertia values and identify the **elbow point** to determine the optimal number of clusters.
+     ![elbow point](screenshots/elbow_point.png) 
+
+3. **Fit the Optimal K-Means Model**  
+   - Use the identified elbow point value of **k** to fit the K-Means model.
+     ![hOptimal K-Means](screenshots/Optimal_K-Means_2.png)   
+
+4. **Analyze the Clusters**  
+   - Check the **number of customers** in each cluster to understand the cluster distribution.
+     ![number of customers](screenshots/number_of_customers_2.png)  
+
+5. **Interpret the Clusters**  
+   - Create a **heat map** of cluster centers to visualize feature values for each cluster.
+     ![heat map](screenshots/heat_map_2.png)   
+   - Analyze and interpret the differences compared to the first clustering results.
+     ![Analyze and interpret](screenshots/Analyze_and_interpret_2.png)
+
+     
 
