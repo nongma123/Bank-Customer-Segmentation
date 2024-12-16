@@ -34,24 +34,25 @@ The first objective is to prepare the data for modeling by:
 - Engineering a new feature to enhance segmentation quality.
 
 Read the "Bank_Churn.csv" file and preview the top 5 rows
-1. 1. **Read and Preview the Data**  
+1.  **Read and Preview the Data**  
    - Load the **`Bank_Churn.csv`** file.  
    - Preview the **top 5 rows** to understand the structure of the dataset.
    ![Top 5 Rows](screenshots/top_5_rows.png)
 
-1. **Create a DataFrame**  
+2. **Create a DataFrame**  
    - Include all fields except **`CustomerId`**, **`Surname`**, and **`Exited`**.
       ![Create a DataFrame](screenshots/dataFrame.png) 
 
-2. **Make All Text Fields Numeric**  
+3. **Make All Text Fields Numeric**  
    - Convert categorical or text-based fields into numerical format using techniques such as **label encoding** or **one-hot encoding**.
-
-3. **Explore the Data**  
+     ![Fields Numeric](screenshots/fields_mumeric.png)
+     
+4. **Explore the Data**  
    - Analyze the data by examining:  
      - Minimum and maximum values of each column.  
      - The distribution of numerical features (using histograms or boxplots).  
 
-4. **Engineer a New Feature**  
+5. **Engineer a New Feature**  
    - Create a new feature called **`ProductsPerYear`**:  
      - This feature can be calculated by dividing the total number of products by the number of years the customer has been with the bank (e.g., `NumOfProducts / Tenure`).
 
