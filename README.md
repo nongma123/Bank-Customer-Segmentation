@@ -34,7 +34,7 @@ The first objective is to prepare the data for modeling by:
 - Engineering a new feature to enhance segmentation quality.
 
 Read the "Bank_Churn.csv" file and preview the top 5 rows
-1.  **Read and Preview the Data**  
+1. **Read and Preview the Data**  
    - Load the **`Bank_Churn.csv`** file.  
    - Preview the **top 5 rows** to understand the structure of the dataset.
    ![Top 5 Rows](screenshots/top_5_rows.png)
@@ -56,6 +56,6 @@ Read the "Bank_Churn.csv" file and preview the top 5 rows
 
 5. **Engineer a New Feature**  
    - Create a new feature called **`ProductsPerYear`**:  
-     - This feature can be calculated by dividing the total number of products by the number of years the customer has been with the bank (e.g., `NumOfProducts / Tenure`).
+      [ProductsPerYear](screenshots/new_feature.png)
 
    
