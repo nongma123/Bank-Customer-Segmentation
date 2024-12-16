@@ -50,7 +50,9 @@ Read the "Bank_Churn.csv" file and preview the top 5 rows
 4. **Explore the Data**  
    - Analyze the data by examining:  
      - Minimum and maximum values of each column.  
-     - The distribution of numerical features (using histograms or boxplots).  
+       ![FMinimum and maximum values](screenshots/min_max_value.png)
+     - The distribution of numerical features.
+       ![distribution of numerical](screenshots/distribution.png)
 
 5. **Engineer a New Feature**  
    - Create a new feature called **`ProductsPerYear`**:  
