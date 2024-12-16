@@ -28,12 +28,7 @@ Tailored recommendations for new products and services were provided for each se
 
 ## 🚀 **Objective 1: Prepare the Data for Modeling**  
 The first objective is to prepare the data for modeling by:  
-- Selecting a subset of fields.  
-- Ensuring all fields are numeric.  
-- Exploring distributions of the selected features.  
-- Engineering a new feature to enhance segmentation quality.
 
-Read the "Bank_Churn.csv" file and preview the top 5 rows
 1. **Read and Preview the Data**  
    - Load the **`Bank_Churn.csv`** file.  
    - Preview the **top 5 rows** to understand the structure of the dataset.
@@ -58,4 +53,29 @@ Read the "Bank_Churn.csv" file and preview the top 5 rows
    - Create a new feature called **`ProductsPerYear`**:  
       ![ProductsPerYear](screenshots/new_feature.png)
 
-   
+## 🚀 **Objective 2: Cluster the Customers (Round 1)**  
+The second objective is to segment customers using **K-Means clustering**. The steps include:
+
+1. **Standardize the Data**  
+   - Scale the data so that each column has a **mean of 0** and a **standard deviation of 1**.  
+     ![Standardize the Data](screenshots/Standardize_the_Data.png)
+2. **Create an Inertia Plot**  
+   - Fit **K-Means clustering models** on the standardized data for **2 to 15 clusters**.
+     ![Create an Inertia Plot](screenshots/K-Means.png) 
+   - Plot the inertia values to identify the optimal number of clusters using the **elbow method**.
+     ![ProductsPerYear](screenshots/Plot_the_inertia.png)
+
+3. **Fit the Optimal K-Means Model**  
+   - Determine the elbow point from the inertia plot and use that value of **k** to fit the K-Means model.
+     ![ProductsPerYear](screenshots/new_feature.png) 
+
+4. **Analyze the Clusters**  
+   - Check the **number of customers** in each cluster to understand the cluster distribution.
+     ![ProductsPerYear](screenshots/new_feature.png)  
+
+5. **Interpret the Clusters**  
+   - Create a **heat map** of cluster centers to visualize feature values for each cluster.
+     ![ProductsPerYear](screenshots/new_feature.png) 
+   - Analyze and interpret the characteristics of the clusters.
+     ![ProductsPerYear](screenshots/new_feature.png)
+
