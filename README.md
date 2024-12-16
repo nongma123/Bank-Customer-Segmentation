@@ -108,5 +108,25 @@ The third objective is to perform **K-Means clustering** using a different subse
    - Analyze and interpret the differences compared to the first clustering results.
      ![Analyze and interpret](screenshots/Analyze_and_interpret_2.png)
 
-     
+## 🚀 **Objective 4: Explore the Clusters and Make Recommendations**  
+The final objective is to analyze the **K-Means clusters** further by examining their churn rates and country breakdowns, and then provide recommendations to cater to each segment.
+
+1. **Combine Data and Cluster Labels**  
+   - Create a **DataFrame** that combines:  
+     - The dataset from the end of **Objective 1**.  
+     - The **"Exited"** field (indicating churn).  
+     - The **cluster labels** from the K-Means model.
+       ![DataFrame](screenshots/DataFrame_final.png)
+2. **Analyze Churn Rate**  
+   - Calculate and view the **churn rate** (percentage of customers who "Exited") for each cluster.
+     ![churn rate](screenshots/churn_rate.png)
+3. **Explore Country Breakdown**  
+   - View the **country distribution** within each cluster to identify regional patterns.
+4. **Make Recommendations**  
+   - Based on the churn rate and country breakdown:  
+     - Provide actionable **recommendations** to cater to each customer segment.
+       ![recommendations](screenshots/recommendations.png) 
+     - Suggest strategies to reduce churn and improve customer retention.
+       ![Suggest strategies](screenshots/Suggest_strategies.png)
+
 
